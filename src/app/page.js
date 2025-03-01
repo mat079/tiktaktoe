@@ -15,8 +15,8 @@ export default function Home() {
       <header className="relative flex w-full justify-center items-center h-full flex-col sm:flex-row"> {/* Add flex-col for mobile */}
         <button onClick={toggleTheme} className="btn btn-secondary mt-4 mb-4 z-10">Toggle Theme</button> {/* Add z-10 here */}
         
-        <div className="absolute top-20 left-0 w-full flex flex-col items-center"> {/* Add absolute positioning */}
-          <div className="divider">GAME</div>
+        <div className="absolute top-10 left-0 w-full flex flex-col items-center sm:top-20"> {/* Adjust top positioning */}
+          <div className="divider text-xl sm:text-4xl">GAME</div> {/* Adjust text size */}
         </div>
         
       </header>

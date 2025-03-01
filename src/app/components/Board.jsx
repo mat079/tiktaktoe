@@ -52,7 +52,7 @@ export default function Board({ squares, xIsNext, onPlay }) {
 
   return (
     <div className="flex flex-col items-center h-full justify-center">
-      <p className="text-lg font-bold mb-2 ml-0 sm:ml-40">{status}</p> {/* Adjust margin for mobile */}
+      <p className="text-lg font-bold mb-2 ml-0 sm:ml-40">{status}</p>
       <div className="grid grid-cols-3 gap-2">
         {renderBoard()}
       </div>
